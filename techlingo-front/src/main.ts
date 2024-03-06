@@ -1,14 +1,12 @@
-import './assets/main.css'
-
-import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import { createApp } from 'vue'
 
 import App from './App.vue'
 import router from './router'
 
-import 'animate.css'
-import '@/assets/css/tailwind.css'
 import '@/assets/css/fonts.css'
+import '@/assets/css/tailwind.css'
+import 'animate.css'
 
 const app = createApp(App)
 

@@ -54,12 +54,26 @@
     font-style: normal;
   }
   
-  
-  
   @font-face {
     font-family: "QuicksandBold";
     src: local("Quicksand Bold"), local("Quicksand-Bold"),
       url("../fonts/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "PoppinsBlack";
+    src: local("Poppins Black"), local("Poppins-Black"),
+      url("../fonts/Poppins-Black.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "PoppinsBlack";
+    src: local("Poppins Black"), local("Poppins-Black"),
+      url("../fonts/Poppins-Black.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
   }
