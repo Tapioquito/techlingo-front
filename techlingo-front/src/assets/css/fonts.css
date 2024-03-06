@@ -29,3 +29,37 @@
     font-weight: 900;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: "QuicksandLight";
+    src: local("Quicksand Light"), local("Quicksand-Light"),
+      url("../fonts/Quicksand-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "QuicksandRegular";
+    src: local("Quicksand Regular"), local("Quicksand-Regular"),
+      url("../fonts/Quicksand-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "QuicksandMedium";
+    src: local("Quicksand Medium"), local("Quicksand-Medium"),
+      url("../fonts/Quicksand-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: "QuicksandBold";
+    src: local("Quicksand Bold"), local("Quicksand-Bold"),
+      url("../fonts/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
