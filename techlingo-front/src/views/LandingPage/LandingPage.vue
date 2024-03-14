@@ -21,9 +21,9 @@
           </div>
           <div class="flex flex-row justify-evenly mt-5">
             <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3">Começar</button>
-            <button class="text-white rounded-full bg-transparent white-border font-bold px-7 py-3">
+            <a class="text-white rounded-full bg-transparent white-border font-bold px-7 py-3">
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="hidden md:block">
@@ -286,125 +286,145 @@
     <div class="w-full hero-height bg-slate-200 flex flex-col items-center justify-center">
       <div class="w-5/6 h-full mb-6 flex flex-col items-center justify-center">
         <div class="flex flex-col items-center justify-center">
-          <p class="quicksand-bold text-black text-3xl">Dúvidas?</p>
+          <p class="quicksand-bold text-black text-3xl py-4">Dúvidas?</p>
         </div>
-        <div class="flex flex-row justify-evenly">
-          <Accordion :activeIndex="0">
-            <AccordionTab header="Para quem é o curso?">
-              <p class="m-0">
-                O inglês para o mundo Tech é para profissionais de tecnologia ou envolvidos com
-                tecnologia e querem aprender inglês para usar no trabalho ou até mesmo conseguir um
-                trabalho na área que exige inglês. O curso divulgado nessa página é direcionado a
-                pessoas que ainda não(negrito) falam inglês e desejam SAIR DO ZERO. O Programa
-                completo da TechLingo - inglês para o mundo Tech leva você Do Zero à Entrevista. Se
-                você deseja fazer parte do programa, fique ligado nas novidades aqui no site e nas
-                nossas redes sociais!
-              </p>
-            </AccordionTab>
-            <AccordionTab header="E se eu já falo inglês?">
-              <p class="m-0">
-                Se você já fala algum inglês e não tem certeza se o conteúdo Do Zero à Entrevista é
-                para você, fale conosco no Whatsapp para explorar outros cursos da TechLingo
-                clicando
-                <a href="">AQUI</a>!
-              </p>
-            </AccordionTab>
-            <AccordionTab header="Eu vou ter que fazer prova?">
-              <p class="m-0">
+        <div class="w-full flex flex-row justify-around">
+          <div class="flex flex-col gap-y-4">
+            <AccordionVue>
+              <template #title>Para quem é o curso?</template>
+              <template #content>
+                O curso divulgado nessa página é direcionado a pessoas que ainda
+                <strong>não</strong> falam inglês e desejam <strong>SAIR DO ZERO</strong>. O
+                Programa completo da TechLingo - inglês para o mundo Tech leva você
+                <strong>Do Zero à Entrevista</strong>.</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title> Eu vou ter que fazer prova?</template>
+              <template #content>
                 O nosso método não trabalha com provas ou testes. Acreditamos que o desempenho do
-                aluno é a maior prova de que ele é capaz de falar inglês.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="Vocês emitem certificado?">
-              <p class="m-0">
+                aluno é a maior prova de que ele é capaz de falar inglês.</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Vocês emitem certificado?</template>
+              <template #content>
                 Sim! Para qualquer curso concluído na TechLingo você terá um certificado de
-                conclusão, incluindo o número de horas (se necessário).
-              </p>
-            </AccordionTab>
-            <AccordionTab header="O certificado serve como proeficiência?">
-              <p class="m-0">
+                conclusão, incluindo o número de horas (se necessário).</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>O certificado serve como proeficiência?</template>
+              <template #content>
                 Não. Certificados de proeficiência são específicos e emitidos por Universidades como
                 Cambridge e Oxford. Esses certificados são emitidos exclusivamente por instituições
                 especializadas que oferecem os testes oficiais das universidades. A TechLingo é um
-                curso livre de idiomas, não uma instituição de testes de proeficiência.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="Tem garantia? E se eu não curtir">
-              <p class="m-0">
+                curso livre de idiomas, não uma instituição de testes de proeficiência.</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Tem garantia? E se eu não curtir?</template>
+              <template #content>
                 Você tem 7 dias, a partir da data de compra, para desistir do seu curso e obter
                 reembolso total do valor, caso não tenha curtido. Mas se você não curtiu, eu te
                 desafio a clicar AQUI e trocar uma ideia diretamente comigo! Eu vou tentar entender
-                qual o seu problema e te ajudar. =)
-              </p>
-            </AccordionTab>
-          </Accordion>
-          <Accordion :activeIndex="0">
-            <AccordionTab header="O que é o plantão de dúvidas?">
-              <p class="m-0">
-                O plantão de dúvidas é um canal exclusivo no discord para os alunos onde você pode
-                fazer perguntas e expor suas dificuldades com o inglês ou no curso.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="E se eu já falo inglêsCmo eu acesso o canal do discord?">
-              <p class="m-0">
-                O Discord é um aplicativo gratuito (Windows | Mac | Linux | Android | iOS) de
-                comunicação (voz, vídeo e texto) onde a comunidade dos alunos da TechLingo podem
-                socializar, tirar dúvidas no plantão e receber informações sobre novidades, lives e
-                conteúdos do curso.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="Tem data pra terminar o curso??">
-              <p class="m-0">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-                excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-                eligendi optio cumque nihil impedit quo minus.Não. Como as Lives ficarão gravadas,
-                você pode acessar o curso em qualquer horário do dia, por 3 meses após a data de
-                compra. Entretanto, alguns módulos só serão liberados de acordo com a agenda das
-                lives. Não se preocupe! Seu curso já foi pago integralmente e você não precisará
-                pagar nada a mais por isso. Além disso, você terá 6 meses de acesso ao conteúdo do
-                curso.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="Qual o tamanho do curso?">
-              <p class="m-0">
+                qual o seu problema e te ajudar. =)</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Qual o tamanho do curso?</template>
+              <template #content>
                 O módulo inicial, inglês do zero, tem duração de 4 semanas. Após isso, os alunos
                 serão direcionados para os módulos introdutórios de business English, onde vão
                 desenvolver as habilidades iniciais para se preparar para entrevista. O valor pago
-                pelo curso divulgado nessa página é referente ao conteúdo desse curso, apenas.
-              </p>
-            </AccordionTab>
-            <AccordionTab header="E depois que eu concluir?">
-              <p class="m-0">
+                pelo curso divulgado nessa página é referente ao conteúdo desse curso,
+                apenas.</template
+              >
+            </AccordionVue>
+          </div>
+          <div class="flex flex-col gap-y-4">
+            <AccordionVue>
+              <template #title>E se eu já falo inglês?</template>
+              <template #content>
+                Se você já fala algum inglês e não tem certeza se o conteúdo Do Zero à Entrevista é
+                para você, fale conosco no Whatsapp para explorar outros cursos da TechLingo
+                clicando <a href="#" class="text-indigo-900 font-bold">AQUI</a></template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Como são as lives?</template>
+              <template #content>
+                As Lives são feitas em dias e horários específicos, de acordo com o cronograma do
+                curso. O cronograma será enviado aos alunos logo após a compra e fazem parte do
+                conteúdo para concluir o curso. As Lives ficam gravadas e os alunos podem assistir
+                posteriormente, caso tenham perdido ou desejem revisar o que foi ensinado.
+              </template>
+            </AccordionVue>
+
+            <AccordionVue>
+              <template #title>O que é o plantão de dúvidas?</template>
+              <template #content>
+                O plantão de dúvidas é um canal exclusivo no discord para os alunos onde você pode
+                fazer perguntas e expor suas dificuldades com o inglês ou no curso.</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Como eu acesso o canal do Discord?</template>
+              <template #content>
+                O Discord é um aplicativo gratuito (Windows | Mac | Linux | Android | iOS) de
+                comunicação (voz, vídeo e texto) onde a comunidade dos alunos da TechLingo podem
+                socializar, tirar dúvidas no plantão e receber informações sobre novidades, lives e
+                conteúdos do curso.</template
+              >
+            </AccordionVue>
+            <AccordionVue>
+              <template #title>Tem data pra terminar o curso?</template>
+              <template #content>
+                Não. Como as Lives ficarão gravadas, você pode acessar o curso em qualquer horário
+                do dia, por 3 meses após a data de compra. Entretanto, alguns módulos só serão
+                liberados de acordo com a agenda das lives. Não se preocupe! Seu curso já foi pago
+                integralmente e você não precisará pagar nada a mais por isso. Além disso, você terá
+                6 meses de acesso ao conteúdo do curso.</template
+              >
+            </AccordionVue>
+
+            <AccordionVue>
+              <template #title>E depois que eu concluir? </template>
+              <template #content>
                 Ao concluir, você receberá um certificado de conclusão da TechLingo, afirmando que
                 você SAIU DO ZERO no inglês e que é capaz de se apresentar, falar dos seus colegas
                 de trabalho e seu cargo na empresa. Se desejar continuar conosco, será direcionado
                 às próximas etapas do programa Do Zero à Entrevista.
-              </p>
-            </AccordionTab>
-          </Accordion>
+              </template>
+            </AccordionVue>
+          </div>
         </div>
       </div>
     </div>
+    <div class="w-full h-90 bg-slate-200 flex flex-col items-center justify-center">
+      <img
+        src="../../assets/images/logo-techlingo-lingo-color.png"
+        alt="logo-techlingo-colorido"
+        class="w-36 h-14"
+      />
+      <p class="quicksand-regular text-slate-400">Todos os direitos reservados</p>
+    </div>
   </div>
 </template>
-<script setup lang="ts">
-import Accordion from 'primevue/accordion'
-import AccordionTab from 'primevue/accordiontab'
+<script lang="ts">
 import { defineComponent } from 'vue'
-
-defineComponent({
-  name: 'LandingPage'
+import AccordionVue from '@/components/Accordion/AccordionVue.vue'
+export default defineComponent({
+  name: 'LandingPage',
+  components: { AccordionVue }
+  /* data() {
+    return {
+      isOpen: false
+    }
+  } */
 })
 </script>
 <style scoped>
-.p-accordion .p-accordion-header {
-  @apply text-indigo-700;
-  @apply font-bold;
-  @apply leading-5;
-}
 .white-border {
   border-color: white;
 }
@@ -438,5 +458,9 @@ defineComponent({
 .teacher-dan {
   width: 408px;
   height: 456px;
+}
+.accordion-closed {
+  width: 572px;
+  height: 106px;
 }
 </style>
