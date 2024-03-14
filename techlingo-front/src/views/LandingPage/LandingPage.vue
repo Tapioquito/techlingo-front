@@ -3,9 +3,15 @@
     <div class="w-full hero-height hero-background flex flex-col">
       <header class="w-full h-24 flex flex-row justify-between items-center">
         <img src="../../assets/images/techlingo-logo.png" class="w-72 h-64 ml-20" />
-        <button class="w-52 h-10 bg-white text-black rounded-full poppins mr-10 hidden md:block">
-          Começar
-        </button>
+        <a
+          target="_blank"
+          href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+          class="w-52 h-10 bg-white text-black rounded-full mr-10 hidden md:block text-center"
+        >
+          <span class="text-center flex justify-center items-center pt-2 poppins-medium"
+            >Começar</span
+          >
+        </a>
       </header>
       <div class="flex flex-row gap-x-12 justify-around items-center">
         <div class="flex-flex-col w-96 h-96">
@@ -20,8 +26,17 @@
             excelência.
           </div>
           <div class="flex flex-row justify-evenly mt-5">
-            <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3">Começar</button>
-            <a class="text-white rounded-full bg-transparent white-border font-bold px-7 py-3">
+            <a
+              target="_blank"
+              href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+              class="text-white rounded-full bg-red-600 font-bold px-7 py-3"
+              >Começar</a
+            >
+            <a
+              target="_blank"
+              href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+              class="text-white rounded-full bg-transparent white-border font-bold px-7 py-3"
+            >
               Saiba mais
             </a>
           </div>
@@ -88,11 +103,6 @@
             </p>
           </div>
         </div>
-        <!-- <div class="flex w-full h-28">
-          <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3">
-            Começar agora
-          </button>
-        </div> -->
       </div>
     </div>
     <div class="w-full hero-height flex flex-col items-center justify-center bg-slate-200">
@@ -164,9 +174,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="flex flex-row justify-evenly mt-5">
-            <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3">Começar</button>
-          </div> -->
         </div>
       </div>
     </div>
@@ -186,10 +193,17 @@
               class="w-28 h-28 rounded-full"
             />
             <p class="quicksand-regular text-slate-800">
-              "Nada melhor do que uma foto no lugar que
-              <strong> você me proporcionou com as aulas</strong>!"
+              Vai além do inglês!Eu precisava destravar, interagir com as pessoas (até mesmo em
+              português). As suas aulas me ajudaram com tudo isso, então nada melhor do que uma foto
+              no lugar que você me proporcionou com as aulas!
             </p>
-
+            <p class="quicksand-regular text-slate-800">
+              O Dan faz a gente se sentir à vontade, confortável, seguro.
+            </p>
+            <p class="quicksand-regular text-slate-800">
+              As suas aulas me ajudaram com tudo isso, então nada melhor do que uma foto no lugar
+              que você me proporcionou com elas!
+            </p>
             <h3 class="quicksand-bold font-medium text-black text-xl">
               Victor Machado - Analista de Observabilidade
             </h3>
@@ -242,21 +256,40 @@
               Eduardo Uchima - Especialista de Controladoria
             </h3>
           </div>
+          <div
+            class="student-card rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
+          >
+            <img src="../../assets/images/aluno-caio-gitti.jpeg" class="w-32 h-32 rounded-full" />
+            <p class="quicksand-regular text-slate-800">
+              " Passei na entrevista com ele!! Eu já falava inglês, mas nem de longe estava pronto
+              para uma entrevista. Foi aí que o Dan se dispôs a fazer um intesivão comigo de duas
+              semanas para destravar meu inglês em uma entrevista com o Tech Lead Belga. Resultado?
+              Aprovado!
+            </p>
+
+            <h3 class="quicksand-bold font-medium text-black text-xl">
+              Caio Gitti -Atlassian Certified Expert
+            </h3>
+          </div>
         </div>
       </div>
       <div class="flex flex-row justify-evenly mt-5">
-        <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3">
+        <a
+          class="text-white rounded-full bg-red-600 font-bold px-7 py-3"
+          target="_blank"
+          href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+        >
           Começar agora
-        </button>
+        </a>
       </div>
     </div>
     <div class="w-full hero-height bg-slate-200 flex items-center justify-center py-6">
       <div class="w-5/6 h-full flex flex-col bg-white rounded-md">
-        <div class="w-full h-full flex flex-row">
+        <div class="h-full flex flex-row justify-center px-12 pt-16 gap-x-6">
           <img
             alt="teacher-dan-art"
-            src="../../assets/images/teacher-dan.png"
-            class="teacher-dan"
+            src="../../assets/images/foto-teacher-leao.png"
+            class="teacher-dan rounded"
           />
           <div class="flex flex-col items-around mt-16">
             <div class="flex flex-row w-full justify-start">
@@ -264,22 +297,34 @@
             </div>
             <div class="flex flex-col">
               <p class="poppins-regular text-slate-400 text-left text-xl mt-12">
-                Desde 2011 impulsionando carreiras, o Teacher Dan é tradutor, intérprete e mestre em
-                Linguística Aplicada pela PUCSP.
+                Impulsionando carreiras desde 2011 🚀
               </p>
               <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
-                "Já ajudei pessoas de diversas áreas a atingirem seus objetivos."
+                Especialista em inglês <strong>corporativo</strong> 💼
               </p>
               <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
-                "Vou lhe ensinar como chegar lá também, conte comigo!"
+                Ajudando profissionais do mundo Tech desde 2015 👨🏾‍💻
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+                Mais de 2.000 alunos formados 🎓
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+                Alunos em várias partes do mundo 🌎
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+                De negociações a jobs em empresas nacionais e internacionais 🤝
               </p>
             </div>
           </div>
         </div>
         <div class="flex flex-row justify-evenly">
-          <button class="text-white rounded-full bg-red-600 font-bold px-7 py-3 mb-6">
+          <a
+            target="_blank"
+            href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+            class="text-white rounded-full bg-red-600 font-bold px-7 py-3 mb-6"
+          >
             Começar agora
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -417,11 +462,6 @@ import AccordionVue from '@/components/Accordion/AccordionVue.vue'
 export default defineComponent({
   name: 'LandingPage',
   components: { AccordionVue }
-  /* data() {
-    return {
-      isOpen: false
-    }
-  } */
 })
 </script>
 <style scoped>
