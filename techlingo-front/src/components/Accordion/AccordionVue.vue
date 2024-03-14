@@ -1,18 +1,23 @@
 <template>
-  <div class="bg-white rounded-md dropdown flex flex-col">
-    <div class="rounded flex flex-row justify-around items-center pt-8" @click="isOpen = !isOpen">
-      <h1 class="text-indigo-900 poppins-medium text-xl"><slot name="title"></slot></h1>
-      <div
-        class="w-10 h-10 text-indigo-900 poppins-regular text-4xl bg-slate-200 cursor-pointer flex flex-col items-center justify-center rounded-md"
-        :class="isOpen ? 'hidden' : 'block'"
-      >
-        +
-      </div>
-      <div
-        class="w-10 h-10 text-white poppins-regular text-4xl bg-red-500 cursor-pointer flex flex-col items-center justify-center rounded-md"
-        :class="isOpen ? 'block' : 'hidden'"
-      >
-        -
+  <div class="bg-white rounded-md dropdown flex flex-col items-center">
+    <div
+      class="w-4/5 rounded flex flex-row justify-between ml-2 items-center pt-8"
+      @click="isOpen = !isOpen"
+    >
+      <h1 class="text-indigo-900 poppins-medium text-xl text-left"><slot name="title"></slot></h1>
+      <div class="w-1/5 flex flex-row justify-end items-center">
+        <div
+          class="w-10 h-10 text-indigo-900 poppins-regular text-4xl bg-slate-200 cursor-pointer flex flex-row items-center justify-center rounded-md"
+          :class="isOpen ? 'hidden' : 'block'"
+        >
+          +
+        </div>
+        <div
+          class="w-10 h-10 text-white poppins-regular text-4xl bg-red-500 cursor-pointer flex flex-col items-center justify-center rounded-md"
+          :class="isOpen ? 'block' : 'hidden'"
+        >
+          -
+        </div>
       </div>
     </div>
 
