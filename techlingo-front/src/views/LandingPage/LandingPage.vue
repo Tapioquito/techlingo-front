@@ -116,7 +116,7 @@
           >
             <h3 class="quicksand-bold font-bold text-black text-2xl">Escolas tradicionais</h3>
             <div class="flex flex-col items-center justify-evenly">
-              <ul>
+              <ul class="flex flex-col gap-y-2">
                 <li class="flex flex-row items-center">
                   <img src="../../assets/images/icon-x-red.png" class="w-5 h-5" />
                   <p class="ml-2 quicksand-medium">Cursos genéricos</p>
@@ -151,7 +151,7 @@
               alt="logo-techlingo-colorido"
               class="w-36 h-14"
             />
-            <ul>
+            <ul class="flex flex-col gap-y-2">
               <li class="flex flex-row items-center">
                 <img src="../../assets/images/icon-check-green.png" class="w-5 h-5" />
                 <p class="ml-2 quicksand-medium">Criado para profissionais tech</p>
@@ -185,17 +185,19 @@
         </div>
         <div class="w-full h-full flex flex-col md:flex-row align-center justify-center gap-x-6">
           <div
-            class="student-card rounded-md bg-white flex flex-col items-center justify-around gap-x-8 gap-y-1 text-center"
+            class="student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
-            <img
-              src="../../assets/images/aluno-victor-2.jpeg"
-              alt="icone_ponte"
-              class="w-28 h-28 rounded-full"
-            />
+            <div class="flex flex-col w-28 h-28 items-center">
+              <img
+                src="../../assets/images/aluno-victor-2.jpeg"
+                alt="icone_ponte"
+                class="w-full h-full rounded-full"
+              />
+            </div>
+
             <p class="quicksand-regular text-slate-800">
-              Vai além do inglês!Eu precisava destravar, interagir com as pessoas (até mesmo em
-              português). As suas aulas me ajudaram com tudo isso, então nada melhor do que uma foto
-              no lugar que você me proporcionou com as aulas!
+              Vai além do inglês! Eu precisava destravar, interagir com as pessoas
+              <strong>(até mesmo em português) </strong>.
             </p>
             <p class="quicksand-regular text-slate-800">
               O Dan faz a gente se sentir à vontade, confortável, seguro.
@@ -209,15 +211,17 @@
             </h3>
           </div>
           <div
-            class="student-card rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
+            class="student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
-            <img
-              src="../../assets/images/aluno-carol.jpeg"
-              alt="icone_ponte"
-              class="w-32 h-32 rounded-full mb-6"
-            />
+            <div class="flex flex-col w-28 h-28 items-center">
+              <img
+                src="../../assets/images/aluno-carol.jpeg"
+                alt="icone_ponte"
+                class="w-full h-full rounded-full"
+              />
+            </div>
             <p class="quicksand-regular text-slate-800">
-              " Comecei com o Dan e só falava algumas frases em inglês.
+              Comecei com o Dan e só falava algumas frases em inglês.
             </p>
             <p class="quicksand-regular text-slate-800">
               Eu não gostava, me sentia desconfortável. <strong>Em pouco tempo me soltei</strong>!
@@ -226,21 +230,23 @@
               Ano passado, fui entrevistada para uma empresa <strong>americana</strong> e
               <strong>passei</strong>!
             </p>
-            <p class="quicksand-regular text-slate-800">Thank you Dan! "</p>
+            <p class="quicksand-regular text-slate-800">Thank you Dan!</p>
             <h3 class="quicksand-bold font-medium text-black text-xl">
               Carol Simões - Hunter de Observabilidade
             </h3>
           </div>
           <div
-            class="student-card rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
+            class="student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
-            <img
-              src="../../assets/images/aluno-eduardo.jpeg"
-              alt="icone_ponte"
-              class="w-32 h-32 rounded-full"
-            />
+            <div class="flex flex-col w-28 h-28 items-center">
+              <img
+                src="../../assets/images/aluno-eduardo.jpeg"
+                alt="icone_ponte"
+                class="w-full h-full rounded-full"
+              />
+            </div>
             <p class="quicksand-regular text-slate-800">
-              " O programa de intercâmbio da minha empresa exigia que eu passasse em uma entrevista,
+              O programa de intercâmbio da minha empresa exigia que eu passasse em uma entrevista,
               <strong>em inglês</strong>.
             </p>
             <p>
@@ -251,21 +257,32 @@
               Obrigado Dan, agora tenho uma <strong>experiência internacional</strong> no meu
               currículo!
             </p>
-            <p>Thank you Dan! "</p>
+
             <h3 class="quicksand-bold font-medium text-black text-xl">
               Eduardo Uchima - Especialista de Controladoria
             </h3>
           </div>
           <div
-            class="student-card rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
+            class="student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
-            <img src="../../assets/images/aluno-caio-gitti.jpeg" class="w-32 h-32 rounded-full" />
+            <div class="flex flex-col w-28 h-28 items-center">
+              <img
+                src="../../assets/images/aluno-caio-gitti.jpeg"
+                alt="icone_ponte"
+                class="w-full h-full rounded-full"
+              />
+            </div>
+            <p class="quicksand-regular text-slate-800">Passei na entrevista com ele!</p>
             <p class="quicksand-regular text-slate-800">
-              " Passei na entrevista com ele!! Eu já falava inglês, mas nem de longe estava pronto
-              para uma entrevista. Foi aí que o Dan se dispôs a fazer um intesivão comigo de duas
-              semanas para destravar meu inglês em uma entrevista com o Tech Lead Belga. Resultado?
-              Aprovado!
+              Eu já falava inglês, mas nem de longe estava pronto para uma entrevista. Foi aí que o
+              Dan se dispôs a fazer um
+              <strong>intesivão</strong> comigo de duas semanas para
+              <strong>destravar meu inglês</strong> para uma entrevista com um Tech Lead
+              <strong>Belga</strong>.
             </p>
+            <span class="w-full"></span>
+
+            <p class="quicksand-regular text-slate-800">Resultado? <strong>Aprovado</strong>!</p>
 
             <h3 class="quicksand-bold font-medium text-black text-xl">
               Caio Gitti -Atlassian Certified Expert
@@ -291,28 +308,46 @@
             src="../../assets/images/foto-teacher-leao.png"
             class="teacher-dan rounded"
           />
-          <div class="flex flex-col items-around mt-16">
+          <div class="flex flex-col items-around">
             <div class="flex flex-row w-full justify-start">
-              <h3 class="quicksand-bold leading-10 text-3xl gap-y-6">O Teacher Dan</h3>
+              <h3 class="quicksand-bold leading-10 text-3xl">O Teacher Dan</h3>
             </div>
-            <div class="flex flex-col">
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-12">
+            <div class="flex flex-col items-evenly gap-y-2">
+              <p class="poppins-regular text-slate-400 text-left text-xl">
                 Impulsionando carreiras desde 2011 🚀
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+              <p class="poppins-regular text-slate-400 text-left text-xl">
                 Especialista em inglês <strong>corporativo</strong> 💼
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+              <p class="poppins-regular text-slate-400 text-left text-xl">
                 Ajudando profissionais do mundo Tech desde 2015 👨🏾‍💻
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
-                Mais de 2.000 alunos formados 🎓
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Mais de <strong>2.000</strong> alunos formados 🎓
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
+              <p class="poppins-regular text-slate-400 text-left text-xl">
                 Alunos em várias partes do mundo 🌎
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl mt-6">
-                De negociações a jobs em empresas nacionais e internacionais 🤝
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Inglês Corporativo <strong>do Zero </strong>
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Preparatório para <strong>entrevistas</strong> 🎙️
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Reuniões de <strong>negócios</strong> 👔
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                <strong>Networking</strong> em eventos 🕸️
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Pitching para <strong>captação de VC</strong>
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                Alunos em <strong>várias partes do mundo</strong> 🌎
+              </p>
+              <p class="poppins-regular text-slate-400 text-left text-xl">
+                De negociações a jobs em empresas nacionais e <strong>internacionais</strong> 🤝
               </p>
             </div>
           </div>
@@ -321,7 +356,7 @@
           <a
             target="_blank"
             href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
-            class="text-white rounded-full bg-red-600 font-bold px-7 py-3 mb-6"
+            class="text-white rounded-full bg-red-600 font-bold px-7 py-3 my-6"
           >
             Começar agora
           </a>
