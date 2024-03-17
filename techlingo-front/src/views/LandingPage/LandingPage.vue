@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full flex flex-col bg-slate-200">
-    <div class="w-full h-96 md:hero-height hero-background flex flex-col">
+    <div class="w-full sm:h-96 hero-height hero-background flex flex-col">
       <header class="w-full h-24 flex flex-row justify-center md:justify-between items-center">
         <img src="../../assets/images/techlingo-logo.png" class="w-60 h-60 md:ml-20" />
         <a
@@ -13,7 +13,7 @@
           >
         </a>
       </header>
-      <div class="flex flex-row gap-x-12 justify-around items-center">
+      <div class="flex flex-row justify-evenly items-center mb-10">
         <div class="flex-flex-col w-96 h-96">
           <div class="text-white hero-text-size quicksand-bold font-bold text-3xl md:text-4xl">
             <p>
@@ -44,7 +44,7 @@
         <div class="hidden md:block">
           <img
             src="../../assets/images/tech_bro_hero.png"
-            class="techbroimg rounded-tr-xl rounded-bl-xl mb-20"
+            class="w-90 h-90 rounded-tr-xl rounded-bl-xl mb-16"
             alt=""
           />
         </div>
@@ -66,7 +66,7 @@
           >
             <img src="../../assets/images/icon-bridge.png" alt="icone_ponte" class="w-28 h-14" />
             <h3 class="quicksand-bold font-medium text-black text-xl">Uma ponte para o sucesso</h3>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800 hidden md:block">
               A pandemia revolucionou o trabalho remoto.
             </p>
             <p class="quicksand-regular text-slate-800">
