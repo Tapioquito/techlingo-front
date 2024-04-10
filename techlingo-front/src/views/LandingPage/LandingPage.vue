@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full flex flex-col bg-slate-200">
-    <div class="w-full sm:h-96 hero-height hero-background flex flex-col">
+    <div class="w-full hero-height hero-background flex flex-col">
       <header class="w-full h-24 flex flex-row justify-center md:justify-between items-center">
         <img src="../../assets/images/techlingo-logo.png" class="w-60 h-60 md:ml-20" />
         <a
@@ -15,13 +15,15 @@
       </header>
       <div class="flex flex-row justify-evenly items-center mb-10">
         <div class="flex-flex-col w-96 h-96">
-          <div class="text-white hero-text-size quicksand-bold font-bold text-3xl md:text-4xl">
+          <div
+            class="text-white hero-text-size text-center sm:text-left quicksand-bold font-bold text-3xl md:text-4xl pb-2"
+          >
             <p>
               Leve sua <span class="text-red-500">carreira</span> de TI para o
               <span class="text-red-500"> próximo nível</span>
             </p>
           </div>
-          <div class="text-white">
+          <div class="text-white text-center sm:text-left">
             Transforme seu futuro dominando o inglês para a sua área de tecnologia com confiança e
             excelência.
           </div>
@@ -33,8 +35,7 @@
               >Começar</a
             >
             <a
-              target="_blank"
-              href="https://chat.whatsapp.com/BRcuGTmgWIOBtfCxEIcj21"
+              href="#saiba_mais"
               class="text-white rounded-full bg-transparent white-border font-bold px-7 py-3"
             >
               Saiba mais
@@ -54,15 +55,15 @@
     <div class="w-full hero-height flex flex-col items-center justify-center bg-slate-200">
       <div class="w-5/6 h-full flex flex-col items-center">
         <div class="flex flex-row items-center justify-center py-8">
-          <h3 class="quicksand-bold font-medium text-black text-3xl">
+          <h3 class="quicksand-bold font-medium text-black text-3xl text-center">
             Chegou a hora de virar o jogo
           </h3>
         </div>
         <div
-          class="w-full h-full flex flex-col md:flex-row sm:items-center justify-center sm:gap-y-4 gap-x-6"
+          class="w-full h-full flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-6"
         >
           <div
-            class="h-80 w-80 rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
+            class="h-60 w-60 sm:h-80 sm:w-80 rounded-md bg-white flex flex-col items-center justify-center gap-x-8 gap-y-1 text-center"
           >
             <img src="../../assets/images/icon-bridge.png" alt="icone_ponte" class="w-28 h-14" />
             <h3 class="quicksand-bold font-medium text-black text-xl">Uma ponte para o sucesso</h3>
@@ -75,7 +76,7 @@
             <p class="quicksand-regular text-slate-800">Construa agora essa ponte!</p>
           </div>
           <div
-            class="h-80 w-80 rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 text-center"
+            class="h-60 w-60 sm:h-80 sm:w-80 rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 text-center"
           >
             <img src="../../assets/images/icon-key.png" alt="icone_chave" class="w-14 h-14" />
             <h3 class="quicksand-bold font-medium text-black text-xl">Uma chave que abre portas</h3>
@@ -88,7 +89,7 @@
             <p class="quicksand-regular text-slate-800">Faça parte dos 1%!</p>
           </div>
           <div
-            class="h-80 w-80 rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 text-center"
+            class="h-60 w-60 sm:h-80 sm:w-80 rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 text-center"
           >
             <img
               src="../../assets/images/icon-door-open.png"
@@ -109,7 +110,7 @@
     </div>
     <div class="w-full hero-height flex flex-col items-center justify-center bg-slate-200">
       <div class="w-5/6 h-full mb-6 flex flex-col items-center justify-center">
-        <div class="flex flex-col md:flex-row items-center justify-center py-4 md:py-8">
+        <div class="flex flex-col md:flex-row items-center justify-center py-4 md:py-8 text-center">
           <h3 class="quicksand-bold font-medium text-black text-3xl">Comece a aprender agora!</h3>
         </div>
         <div
@@ -181,17 +182,17 @@
         </div>
       </div>
     </div>
-    <br />
-    <div class="w-full hero-height hero-background flex flex-col items-center md:py-8">
+
+    <div class="w-full hero-height hero-background flex flex-col items-center pt-8">
       <div class="w-5/6 h-full flex flex-col items-center justify-center">
         <div class="flex flex-row items-center justify-center py-8">
           <h3 class="quicksand-bold text-white text-3xl">Confira os resultados</h3>
         </div>
         <div
-          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-6 md:gap-x-6 sm:mb-4"
+          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-6 sm:mb-4"
         >
           <div
-            class="w-80 h-90 md:student-card rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white hidden sm:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -201,14 +202,14 @@
               />
             </div>
 
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800">
               Vai além do inglês! Eu precisava destravar, interagir com as pessoas
               <strong>(até mesmo em português) </strong>.
             </p>
             <p class="quicksand-regular text-slate-800">
               O Dan faz a gente se sentir à vontade, confortável, seguro.
             </p>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800">
               As suas aulas me ajudaram com tudo isso, então nada melhor do que uma foto no lugar
               que você me proporcionou com elas!
             </p>
@@ -217,7 +218,7 @@
             </h3>
           </div>
           <div
-            class="w-80 h-90 md:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -229,20 +230,20 @@
             <p class="quicksand-regular text-slate-800">
               Comecei com o Dan e só falava algumas frases em inglês.
             </p>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800 hidden sm:flex">
               Eu não gostava, me sentia desconfortável. <strong>Em pouco tempo me soltei</strong>!
             </p>
             <p class="quicksand-regular text-slate-800">
               Ano passado, fui entrevistada para uma empresa <strong>americana</strong> e
               <strong>passei</strong>!
             </p>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">Thank you Dan!</p>
+            <p class="quicksand-regular text-slate-800">Thank you Dan!</p>
             <h3 class="quicksand-bold font-medium text-black text-md md:text-xl">
               Carol Simões - Hunter de Observabilidade
             </h3>
           </div>
           <div
-            class="w-80 h-90 md:student-card rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -255,7 +256,7 @@
               O programa de intercâmbio da minha empresa exigia que eu passasse em uma entrevista,
               <strong>em inglês</strong>.
             </p>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800">
               O Dan me ajudou, praticamente do zero, a ser aprovado na entrevista em menos de 2
               anos. E ao longo do meu 1 ano fora do país de forma online.
             </p>
@@ -269,7 +270,7 @@
             </h3>
           </div>
           <div
-            class="w-80 h-90 md:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -278,7 +279,7 @@
                 class="w-full h-full rounded-full"
               />
             </div>
-            <p class="quicksand-regular text-slate-800 hidden md:flex">
+            <p class="quicksand-regular text-slate-800 hidden sm:flex">
               Passei na entrevista com ele!
             </p>
             <p class="quicksand-regular text-slate-800">
@@ -288,7 +289,6 @@
               <strong>destravar meu inglês</strong> para uma entrevista com um Tech Lead
               <strong>Belga</strong>.
             </p>
-            <span class="w-full"></span>
 
             <p class="quicksand-regular text-slate-800">Resultado? <strong>Aprovado</strong>!</p>
 
@@ -371,7 +371,10 @@
         </div>
       </div>
     </div>
-    <div class="w-full hero-height bg-slate-200 flex flex-col items-center justify-center">
+    <div
+      id="saiba_mais"
+      class="w-full hero-height bg-slate-200 flex flex-col items-center justify-center"
+    >
       <div class="w-5/6 h-full mb-6 flex flex-col items-center justify-center">
         <div class="flex flex-col items-center justify-center">
           <p class="quicksand-bold text-black text-3xl py-4">Dúvidas?</p>
@@ -535,8 +538,10 @@ export default defineComponent({
   width: 115px;
 }
 .student-card {
-  width: 302px;
-  height: 508px;
+  width: 19vw;
+  height: 71vh;
+  /* width: 302px;
+  height: 508px; */
 }
 .teacher-dan {
   width: 408px;
