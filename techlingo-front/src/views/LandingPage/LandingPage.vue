@@ -183,16 +183,16 @@
       </div>
     </div>
 
-    <div class="w-full hero-height hero-background flex flex-col items-center pt-8">
+    <div class="w-full hero-height hero-background flex flex-col items-center py-8">
       <div class="w-5/6 h-full flex flex-col items-center justify-center">
         <div class="flex flex-row items-center justify-center py-8">
           <h3 class="quicksand-bold text-white text-3xl">Confira os resultados</h3>
         </div>
         <div
-          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-6 sm:mb-4"
+          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-6 sm:mb-4 overflow-y-auto sm:overflow-hidden"
         >
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white hidden sm:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -231,7 +231,8 @@
               Comecei com o Dan e só falava algumas frases em inglês.
             </p>
             <p class="quicksand-regular text-slate-800 hidden sm:flex">
-              Eu não gostava, me sentia desconfortável. <strong>Em pouco tempo me soltei</strong>!
+              Eu não gostava, me sentia desconfortável.
+              <!-- <strong>Em pouco tempo me soltei</strong>! -->
             </p>
             <p class="quicksand-regular text-slate-800">
               Ano passado, fui entrevistada para uma empresa <strong>americana</strong> e
@@ -243,7 +244,7 @@
             </h3>
           </div>
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white hidden md:flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
@@ -256,10 +257,10 @@
               O programa de intercâmbio da minha empresa exigia que eu passasse em uma entrevista,
               <strong>em inglês</strong>.
             </p>
-            <p class="quicksand-regular text-slate-800">
+            <!-- <p class="quicksand-regular text-slate-800">
               O Dan me ajudou, praticamente do zero, a ser aprovado na entrevista em menos de 2
               anos. E ao longo do meu 1 ano fora do país de forma online.
-            </p>
+            </p> -->
             <p class="quicksand-regular text-slate-800">
               Obrigado, Dan! Agora tenho uma <strong>experiência internacional</strong> no meu
               currículo!
@@ -279,9 +280,9 @@
                 class="w-full h-full rounded-full"
               />
             </div>
-            <p class="quicksand-regular text-slate-800 hidden sm:flex">
+            <!--   <p class="quicksand-regular text-slate-800 hidden sm:flex">
               Passei na entrevista com ele!
-            </p>
+            </p> -->
             <p class="quicksand-regular text-slate-800">
               Eu já falava inglês, mas nem de longe estava pronto para uma entrevista. Foi aí que o
               Dan se dispôs a fazer um
