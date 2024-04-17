@@ -114,7 +114,7 @@
           <h3 class="quicksand-bold font-medium text-black text-3xl">Comece a aprender agora!</h3>
         </div>
         <div
-          class="w-full h-full flex flex-col md:flex-row items-center justify-center sm:gap-y-6 md:gap-x-6 text-center"
+          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-2 md:gap-x-6 text-center"
         >
           <div
             class="h-80 w-80 rounded-md bg-white flex flex-col items-center justify-evenly md:gap-x-8 text-center"
@@ -311,11 +311,13 @@
     </div>
     <div class="w-full hero-height bg-slate-200 flex items-center justify-center py-6">
       <div class="w-5/6 h-full flex flex-col bg-white rounded-md">
-        <div class="h-full flex flex-row justify-center px-12 pt-16 gap-x-6">
+        <div
+          class="h-full flex flex-col sm:flex-row justify-center px-12 pt-16 gap-x-6 overflow-scroll sm:overflow-y-hidden"
+        >
           <img
             alt="teacher-dan-art"
             src="../../assets/images/foto-teacher-leao.png"
-            class="teacher-dan rounded"
+            class="w-60 h-60 rounded-xl sm:teacher-dan sm:rounded"
           />
           <div class="flex flex-col items-around">
             <div class="flex flex-row w-full justify-start">
@@ -328,7 +330,7 @@
               <p class="poppins-regular text-slate-400 text-left text-xl">
                 Especialista em inglês <strong>corporativo</strong> 💼
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
+              <p class="hidden sm:block poppins-regular text-slate-400 text-left text-xl">
                 Ajudando profissionais do mundo Tech desde 2015 👨🏾‍💻
               </p>
               <p class="poppins-regular text-slate-400 text-left text-xl">
@@ -338,24 +340,22 @@
                 Alunos em várias partes do mundo 🌎
               </p>
               <p class="poppins-regular text-slate-400 text-left text-xl">
-                Inglês Corporativo <strong>do Zero </strong>
+                Inglês Corporativo <strong>do Zero</strong>
               </p>
               <p class="poppins-regular text-slate-400 text-left text-xl">
                 Preparatório para <strong>entrevistas</strong> 🎙️
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
+              <p class="hidden sm:block poppins-regular text-slate-400 text-left text-xl">
                 Reuniões de <strong>negócios</strong> 👔
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
+              <p class="hidden sm:block poppins-regular text-slate-400 text-left text-xl">
                 <strong>Networking</strong> em eventos 🕸️
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
+              <p class="hidden sm:block poppins-regular text-slate-400 text-left text-xl">
                 Pitching para <strong>captação de VC</strong>
               </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
-                Alunos em <strong>várias partes do mundo</strong> 🌎
-              </p>
-              <p class="poppins-regular text-slate-400 text-left text-xl">
+
+              <p class="hidden sm:block poppins-regular text-slate-400 text-left text-xl">
                 De negociações a jobs em empresas nacionais e <strong>internacionais</strong> 🤝
               </p>
             </div>
@@ -376,13 +376,17 @@
       id="saiba_mais"
       class="w-full hero-height bg-slate-200 flex flex-col items-center justify-center"
     >
-      <div class="w-5/6 h-full mb-6 flex flex-col items-center justify-center">
+      <div
+        class="w-10/12 sm:w-5/6 h-full mb-6 flex flex-col items-center justify-center text-center"
+      >
         <div class="flex flex-col items-center justify-center">
           <p class="quicksand-bold text-black text-3xl py-4">Dúvidas?</p>
         </div>
-        <div class="w-full flex flex-row justify-around">
+        <div
+          class="w-full flex flex-col sm:flex-row justify-center sm:justify-around overflow-y-scroll sm:overflow-hidden"
+        >
           <div class="flex flex-col gap-y-4">
-            <AccordionVue>
+            <AccordionVue class="">
               <template #title>Para quem é o curso?</template>
               <template #content>
                 O curso divulgado nessa página é direcionado a pessoas que ainda
@@ -391,7 +395,7 @@
                 <strong>Do Zero à Entrevista</strong>.</template
               >
             </AccordionVue>
-            <AccordionVue>
+            <AccordionVue class="hidden sm:flex">
               <template #title> Eu vou ter que fazer prova?</template>
               <template #content>
                 O nosso método não trabalha com provas ou testes. Acreditamos que o desempenho do
@@ -405,7 +409,7 @@
                 conclusão, incluindo o número de horas (se necessário).</template
               >
             </AccordionVue>
-            <AccordionVue>
+            <AccordionVue class="hidden sm:flex">
               <template #title>O certificado serve como proeficiência?</template>
               <template #content>
                 Não. Certificados de proeficiência são específicos e emitidos por Universidades como
@@ -414,7 +418,7 @@
                 curso livre de idiomas, não uma instituição de testes de proeficiência.</template
               >
             </AccordionVue>
-            <AccordionVue>
+            <AccordionVue class="hidden sm:flex">
               <template #title>Tem garantia? E se eu não curtir?</template>
               <template #content>
                 Você tem 7 dias, a partir da data de compra, para desistir do seu curso e obter
@@ -443,7 +447,7 @@
                 clicando <a href="#" class="text-indigo-900 font-bold">AQUI</a></template
               >
             </AccordionVue>
-            <AccordionVue>
+            <AccordionVue class="hidden sm:flex">
               <template #title>Como são as lives?</template>
               <template #content>
                 As Lives são feitas em dias e horários específicos, de acordo com o cronograma do
@@ -480,7 +484,7 @@
               >
             </AccordionVue>
 
-            <AccordionVue>
+            <AccordionVue class="hidden sm:flex">
               <template #title>E depois que eu concluir? </template>
               <template #content>
                 Ao concluir, você receberá um certificado de conclusão da TechLingo, afirmando que
