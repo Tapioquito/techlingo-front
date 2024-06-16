@@ -184,21 +184,21 @@
     </div>
 
     <div class="w-full hero-height hero-background flex flex-col items-center py-8">
-      <div class="w-5/6 h-full flex flex-col items-center justify-center">
+      <div class="w-80 sm:w-5/6 h-full flex flex-col items-center justify-center">
         <div class="flex flex-row items-center justify-center py-8">
-          <h3 class="quicksand-bold text-white text-3xl">Confira os resultados</h3>
+          <h3 class="quicksand-bold text-white text-3xl text-center">Confira os resultados</h3>
         </div>
         <div
-          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-6 sm:mb-4 overflow-y-auto sm:overflow-hidden"
+          class="w-full h-full flex flex-col md:flex-row items-center justify-center gap-y-4 sm:gap-x-6 sm:mb-4 overflow-auto sm:overflow-hidden"
         >
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-72 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
                 src="../../assets/images/aluno-victor-2.jpeg"
                 alt="icone_ponte"
-                class="w-full h-full rounded-full"
+                class="w-full h-full rounded-full mt-1"
               />
             </div>
 
@@ -206,9 +206,9 @@
               Vai além do inglês! Eu precisava destravar, interagir com as pessoas
               <strong>(até mesmo em português) </strong>.
             </p>
-            <p class="quicksand-regular text-slate-800">
+            <!--  <p class="quicksand-regular text-slate-800">
               O Dan faz a gente se sentir à vontade, confortável, seguro.
-            </p>
+            </p> -->
             <p class="quicksand-regular text-slate-800">
               As suas aulas me ajudaram com tudo isso, então nada melhor do que uma foto no lugar
               que você me proporcionou com elas!
@@ -218,13 +218,13 @@
             </h3>
           </div>
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-72 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
                 src="../../assets/images/aluno-carol.jpeg"
                 alt="icone_ponte"
-                class="w-full h-full rounded-full"
+                class="w-full h-full rounded-full mt-1"
               />
             </div>
             <p class="quicksand-regular text-slate-800">
@@ -244,13 +244,13 @@
             </h3>
           </div>
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-72 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
                 src="../../assets/images/aluno-eduardo.jpeg"
                 alt="icone_ponte"
-                class="w-full h-full rounded-full"
+                class="w-full h-full rounded-full mt-1"
               />
             </div>
             <p class="quicksand-regular text-slate-800">
@@ -271,13 +271,13 @@
             </h3>
           </div>
           <div
-            class="w-80 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
+            class="w-72 h-96 sm:student-card rounded-md bg-white flex flex-col items-center justify-evenly gap-x-8 gap-y-1 text-center"
           >
             <div class="flex flex-col w-28 h-28 items-center">
               <img
                 src="../../assets/images/aluno-caio-gitti.jpeg"
                 alt="icone_ponte"
-                class="w-full h-full rounded-full"
+                class="w-full h-full rounded-full mt-1"
               />
             </div>
             <!--   <p class="quicksand-regular text-slate-800 hidden sm:flex">
@@ -317,11 +317,11 @@
           <img
             alt="teacher-dan-art"
             src="../../assets/images/foto-teacher-leao.png"
-            class="w-60 h-60 rounded-xl sm:teacher-dan sm:rounded"
+            class="w-60 h-60 rounded-xl hidden sm:flex teacher-dan"
           />
           <div class="flex flex-col items-around">
             <div class="flex flex-row w-full justify-start">
-              <h3 class="quicksand-bold leading-10 text-3xl">O Teacher Dan</h3>
+              <h3 class="quicksand-bold leading-10 text-3xl text-center">O Teacher Dan</h3>
             </div>
             <div class="flex flex-col items-evenly gap-y-2">
               <p class="poppins-regular text-slate-400 text-left text-xl">
@@ -374,7 +374,7 @@
     </div>
     <div
       id="saiba_mais"
-      class="w-full hero-height bg-slate-200 flex flex-col items-center justify-center"
+      class="hidden sm:flex flex-col items-center justify-center w-full hero-height bg-slate-200"
     >
       <div
         class="w-10/12 sm:w-5/6 h-full mb-6 flex flex-col items-center justify-center text-center"
@@ -383,7 +383,7 @@
           <p class="quicksand-bold text-black text-3xl py-4">Dúvidas?</p>
         </div>
         <div
-          class="w-full flex flex-col sm:flex-row justify-center sm:justify-around overflow-y-scroll sm:overflow-hidden"
+          class="w-full flex flex-col sm:flex-row justify-center sm:justify-around overflow-y-scroll"
         >
           <div class="flex flex-col gap-y-4">
             <AccordionVue class="">
@@ -556,4 +556,11 @@ export default defineComponent({
   width: 572px;
   height: 106px;
 }
+
+/* @media screen and (max-width: 600px){
+  .student-card{
+    width: 15vw;
+    
+  }
+} */
 </style>
